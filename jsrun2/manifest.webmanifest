@@ -1,0 +1,15 @@
+{
+  "background_color": "#808080",
+  "description": "JS Runner PWA.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "images/a5604c3c.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "JS Runner PWA",
+  "short_name": "JsRunPwa",
+  "start_url": "/jsrun2/index.html"
+}
