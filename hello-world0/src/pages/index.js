@@ -1,2 +1,2 @@
 import React from "react"
-export default () => React.createElement("div", null, "Hello world!")
+export default () => <div>Hello world!</div>
