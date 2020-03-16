@@ -1,6 +1,6 @@
 self.addEventListener('install',function(e){
 	e.waitUntil(
-		caches.open(MyResume-store').then(function(cache){
+		caches.open('MyResume-store').then(function(cache){
 			return cache.addAll([
 				'/PortfolioResume/',
 				'/PortfolioResume/index.html',
@@ -15,13 +15,10 @@ self.addEventListener('install',function(e){
 });
 
 self.addEventListener('fetch', function(e) {
-	console.log(e.request.url);
-	e.respondWith(
-		catches.match(e.request).then(function(response){
-			return response || fetch(e.request);
-		})
-	);
+  console.log(e.request.url);
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
+      return response || fetch(e.request);
+    })
+  );
 });
-
-				
-				
