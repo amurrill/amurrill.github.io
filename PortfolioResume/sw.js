@@ -1,4 +1,4 @@
-self.addEventListener('install',function(e){
+self.addEventListener('install', function(e){
 	e.waitUntil(
 		caches.open('MyResume-store').then(function(cache){
 			return cache.addAll([
