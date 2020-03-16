@@ -10,7 +10,7 @@ let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
 
-windos.addEventListener('beforeinstallprompt', (e) => {
+window.addEventListener('beforeinstallprompt', (e) => {
 	
 
 	e.preventDefault();
