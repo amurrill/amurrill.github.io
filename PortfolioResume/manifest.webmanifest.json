@@ -1,0 +1,12 @@
+{
+	"name": "PortfolioResumeApp",
+	"description": "PortfolioResumeApp",
+	"short_name": "MyResume",
+	"display": "fullscreen",
+	"icons":[{
+		"src": "images/icon.png",
+		"sizes": "512x512"
+		"type": "image/png"
+	}],
+	"start_url": "/PortfolioResume/index.html"
+}
