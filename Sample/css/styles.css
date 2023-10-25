@@ -86,7 +86,7 @@ td {
 .title {
     display: flex;
     min-height: 50vh;
-    background-image: url("../img/thirsty-turf-irrigation-cuZEzaryFjE-unsplash.jpg");
+    background-image: url('../img/thirsty-turf-irrigation-cuZEzaryFjE-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
